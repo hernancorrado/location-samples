@@ -52,10 +52,21 @@ final class Constants {
     static final HashMap<String, LatLng> BAY_AREA_LANDMARKS = new HashMap<>();
 
     static {
+
         // San Francisco International Airport.
-        BAY_AREA_LANDMARKS.put("SFO", new LatLng(37.621313, -122.378955));
+        // BAY_AREA_LANDMARKS.put("SFO", new LatLng(37.621313, -122.378955));
 
         // Googleplex.
-        BAY_AREA_LANDMARKS.put("GOOGLE", new LatLng(37.422611,-122.0840577));
+        // BAY_AREA_LANDMARKS.put("GOOGLE", new LatLng(37.422611,-122.0840577));
+
+        // Nann
+        BAY_AREA_LANDMARKS.put("Nann", new LatLng(-31.408515735121004,-64.22596356658961));
+
+        // Nuevocentro
+        BAY_AREA_LANDMARKS.put("Nuevocentro", new LatLng(-31.412393910378693,-64.20452828495837));
+
+        // Venex
+        BAY_AREA_LANDMARKS.put("Venex", new LatLng(-31.404080894609763,-64.17356794378661));
+
     }
 }
